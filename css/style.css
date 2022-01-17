@@ -1,0 +1,204 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.bg{
+  background: transparent;
+  transition: 0.2s ease;
+}
+
+.bg.scrolled{
+  background: #6a0f86;
+}
+
+.banner-text{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  z-index: 2;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner-text h1{
+  color: rgba(255, 255, 255, 0.815);
+  font-size: 7vw;
+  line-height: 1.2em;
+  font-weight: 200;
+}
+
+.banner-text h2{
+  color: rgba(255, 255, 255, 0.582);
+}
+
+.home {
+  min-height: 100vh;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1d;
+  opacity: 1;
+  mix-blend-mode: overlay;
+}
+
+.banner-button button{
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background: #ff1f66bd;
+} 
+
+
+
+
+/* --------------------------------------- */
+
+
+.store-title h1{
+  letter-spacing: 10px;
+  font-family: 'Roboto',sans-serif;
+}
+
+.store-title .sub{
+  width: 10%;
+  height: 5px;
+  background: #6a0f86bd;
+  border-radius: 10px;
+}
+
+.store{
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+/*------------------------------------------*/
+
+.filters-list{
+  background: #6a0f86bd;
+  border-radius: 10px;
+}
+
+.filters-title{
+  font-family: 'Roboto' ,sans-serif;
+}
+
+
+.filters button{
+  font-size: 15px;
+  background: transparent;
+  border-style: none;
+  font-weight: 600;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+
+
+/*-----------------------------------------*/
+
+
+.products{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cart{
+  color: #6a0f86;
+  
+}
+
+.buttonCart{
+  border-style: none;
+  background: transparent;
+} 
+
+.buttonCart span{
+  font-size: 40px;
+}
+
+
+.products-title{
+  font-family: 'Roboto',sans-serif;
+}
+
+
+.products-items{
+  width: auto;
+  height: auto;
+}
+
+.products-card{
+  width: 300px;
+  height: 300px; 
+  font-family: 'Roboto',sans-serif;
+  -webkit-box-shadow: -3.5px 0.5px 10px -1.5px #ddd;
+  -moz-box-shadow: -3.5px 0.5px 10px -1.5px #ddd;
+  box-shadow: -3.5px 0.5px 10px -1.5px #ddd;
+  border-radius: 10px;
+
+}
+
+.products-card img{
+  width: 200px;
+  height: 200px;
+}
+
+.addButton{
+  border-style: none;
+  background: #6a0f86;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+}
+
+.addButton:hover{
+  background: #4361ee;
+  transition: 0.2s ease-in-out;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* Para trabajar comodamente con dos ventanas en el monitor */
+
+@media (min-width: 768px) {
+  .filters button{
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
